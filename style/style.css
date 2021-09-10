@@ -68,7 +68,7 @@ a {
 }
 
 header {
-  position: fixed;
+  "position: fixed;"
   top: 0;
   min-height: 75px;
   padding: 0px 20px;
@@ -78,7 +78,7 @@ header {
   background-color: #eee;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   header {
     flex-wrap: wrap;
   }
@@ -88,7 +88,7 @@ header {
   width: 60vw;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 950px) {
   .logo {
     margin-top: 15px;
     width: 100%;
@@ -110,7 +110,7 @@ header {
   margin-bottom: 5px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 950px) {
   .logo > img {
     margin: 0 auto;
   }
@@ -123,7 +123,7 @@ nav {
   
 }
 
-@media (max-width: 650px) {
+@media (max-width: 950px) {
   nav {
     margin-top: 10px;
     width: 100%;
@@ -132,10 +132,12 @@ nav {
     align-items: center;
     text-align: center;
     padding: 0 50px;
+    flex-direction: column;
    
   }
   nav li {
     padding-bottom: 5px;
+    flex-direction: column;
   }
 }
 
@@ -146,7 +148,7 @@ nav > ul {
   justify-content: space-around;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 950px) {
   nav > ul {
     flex-direction: column;
   }
@@ -331,4 +333,22 @@ footer > span {
   justify-content: flex-end;
   font-size: 0.9em;
   color: #444;
+}
+.burger{
+
+}
+.line{
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 3px 3px;
+}
+
+@media only screen and (max-width:1000px){
+  #nav-bar {
+    flex-direction: column;
+  }
+  #header{
+  align-items: center;
+  }
 }
