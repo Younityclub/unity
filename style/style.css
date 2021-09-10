@@ -136,8 +136,10 @@ nav {
    
   }
   nav li {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     flex-direction: column;
+    font-size: x-large;
+    align-items: center;
   }
 }
 
