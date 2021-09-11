@@ -81,6 +81,17 @@ a {
   header {
     flex-wrap: wrap;
   }
+
+  #header-img{
+    opacity: 0;
+    flex-direction: row;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+  }
 }
 
 .logo {
@@ -191,7 +202,7 @@ nav > ul {
   transition: background-color 1s;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 950px) {
   #hero {
     margin-top: 0px;
   }
@@ -206,11 +217,11 @@ nav > ul {
   align-items: center;
   justify-content: center;
   height: 125px;
-  width: 20vw;
+  width: 11vw;
   color: darkorange;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 950px) {
   #features .icon {
     display: none;
   }
@@ -225,7 +236,7 @@ nav > ul {
   padding: 5px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 950px) {
   #features .desc {
     width: 100%;
     text-align: center;
@@ -234,7 +245,7 @@ nav > ul {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 950px) {
   #features {
     margin-top: 0;
   }
@@ -302,7 +313,7 @@ nav > ul {
   transition: background-color 1s;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
   #pricing {
     flex-direction: column;
   }
@@ -353,15 +364,6 @@ footer > span {
   #header{
   align-items: center;
   }
-  #header-img{
-    opacity: 0;
-    flex-direction: row;
-    min-height: 75px;
-    padding: 0px 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #eee;
-  }
+  
 
 }
